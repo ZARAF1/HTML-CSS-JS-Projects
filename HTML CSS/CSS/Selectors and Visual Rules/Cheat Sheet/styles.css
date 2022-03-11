@@ -1,0 +1,41 @@
+body {
+    background-color: #53888e;
+    text-align: center;
+}
+img{
+    margin: auto;
+    display: block;
+}
+thead tr th{
+    text-transform: uppercase;
+    text-align:left;
+    background-color: #8c6b48;
+    padding: 20px 5px 20px 5px;
+    color:white;
+    border-radius: 10px;
+}
+tbody tr td{
+    text-align: left;
+
+}
+table{
+    margin:auto;
+    display:inline-block;
+
+}
+h2.basic, h2.text{
+    background-color: chocolate;
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:10px;
+    border-radius: 10px;
+}
+tr td{
+    color:white;
+    font-size: 20px;
+    border: 2px dotted silver;
+    border-radius: 10px;
+    padding:5px;
+    background-color: #ec3636;
+}

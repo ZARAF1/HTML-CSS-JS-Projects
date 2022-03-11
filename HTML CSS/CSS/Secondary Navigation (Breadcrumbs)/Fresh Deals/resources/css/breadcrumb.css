@@ -1,0 +1,13 @@
+.breadcrumb li{
+    display:inline;
+    margin:5px;
+}
+.breadcrumb .location+.location::before{
+    content:">"
+}
+
+.breadcrumb .attribute>a::after{
+    content:"x";
+    vertical-align:super;
+    font-size:8px;
+}
